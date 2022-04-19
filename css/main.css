@@ -1,7 +1,86 @@
-.fa {
-    float: bottom;
-    padding: 50px;
-    text-align: center;
-    margin: 5px 2px;
-    font-size: 55px;
+.container {
+    display: flex;
+    font-family: sans-serif;
+    color: dimgrey;
 }
+.item-left {
+    background: #c4c4cc;
+    padding: 20px;
+}
+.kh {
+    width: 250px;
+    border-radius: 50%;
+}
+.homeIcon {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+.left-block {
+    align-items: center;
+}
+.info-items {
+    align-items: center;
+}
+.hr {
+    background-color:#000;
+    color:#000;
+    border:#000;
+    height:2px;
+    padding: 2px;
+    text-align: center;
+    margin:0 auto;
+    width: 200px;
+}
+.name-b {
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    margin:0 auto;
+    background: #c4c4cc;
+}
+.text {
+    margin: 0 auto;
+    line-height: 100px;
+}
+.langue {
+    margin-top: 30px;
+}
+.item-right {
+}
+li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.kachel {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px 50px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+@media (max-width: 768px){
+    .item-right, .item-left {
+        padding-top: 20px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+}
+/*.footer-item {*/
+/*    display: flex;*/
+/*    place-items: center;*/
+/*    background: dimgrey;*/
+/*    color: antiquewhite;*/
+/*    height: 50px;*/
+/*    width: min-content;*/
+/*    padding: 20px;*/
+/*    animation: rollon 4s alternate infinite ;*/
+/*}*/
+/*@keyframes rollon {*/
+/*    to { transform: translateX(200%) rotate(359deg)}*/
+/*}*/
